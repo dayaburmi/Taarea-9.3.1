@@ -32,4 +32,5 @@ function subirALs(){
 buttonRemove.addEventListener("click", function () {
   container.innerHTML = "";
   localStorage.clear();
+  arrayItems.splice(0, arrayItems.length);
 }); 
